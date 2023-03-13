@@ -173,6 +173,12 @@ const btn = document.querySelector('.down button')
 let i = data.length - 1;
 
 const assign = () => {
+    const preloader = document.querySelector('.preloader')
+    preloader.style.display = 'inline-block';
+
+    setTimeout(() => {
+        preloader.style.display = 'none';
+    }, 2000)
     movie.innerText = data[i].movie;
     quote.innerText = ` "${data[i].quote}"`;
     person.innerText = `- ${data[i].person}`;
