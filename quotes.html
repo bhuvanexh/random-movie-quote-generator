@@ -10,6 +10,7 @@
 </head>
 
 <body class="quoteBody">
+    <div class="preloader">&nbsp; Loading...</div>
     <div class="outerBox">
         <div class="mainBox">
             <div class="top">
@@ -34,6 +35,12 @@
         </div>
     </div>
     <script src="index.js"></script>
+    <script>
+        const preloader = document.querySelector('.preloader')
+        window.addEventListener('load', () => {
+            preloader.style.display = 'none';
+        })
+    </script>
 </body>
 
 </html>
