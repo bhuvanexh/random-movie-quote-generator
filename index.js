@@ -78,12 +78,6 @@ const data = [
         person: 'Narrator (Edward Norton)'
     },
     {
-        img: './assets/fight2.jpg',
-        movie: 'Fight Club (1999)',
-        quote: "I Found Freedom. Losing All Hope Was Freedom.",
-        person: 'Narrator (Edward Norton)'
-    },
-    {
         img: './assets/HER.jpg',
         movie: 'HER (2013)',
         quote: "Sometimes I think I have felt everything I’m ever gonna feel. And from here on out, I’m not gonna feel anything new. Just lesser versions of what I’ve already felt.",
@@ -99,12 +93,6 @@ const data = [
         img: './assets/godf.jpg',
         movie: 'Godfather (1972)',
         quote: "I’m gonna make him an offer he can’t refuse.",
-        person: 'Don Vito (Marlon Brando)'
-    },
-    {
-        img: './assets/godf2.jpg',
-        movie: 'Godfather (1972)',
-        quote: "Look How They Massacred My Boy.",
         person: 'Don Vito (Marlon Brando)'
     },
     {
